@@ -1,13 +1,12 @@
 import React from 'react';
+import Sidebar1 from '../components/Sidebar1';
 
-const instructorlanding = () => {
+function Instructorlanding() {
   return (
     <div>
-      <h1>Welcome to the Landing Page</h1>
-      <p>This is a sample landing page.</p>
-      <p>You can add your content here.</p>
+        <Sidebar1/>
     </div>
-  );
-};
+  )
+}
 
-export default instructorlanding;
+export default Instructorlanding

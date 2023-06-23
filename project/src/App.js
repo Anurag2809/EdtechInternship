@@ -1,9 +1,9 @@
 import './App.css';
-import Studentlanding from './pages/Studentlanding';
+import Login from './pages/Login';
 
 const App = () => {
   return (
-      <Studentlanding/>
+      <Login/>
     );
 };
 
