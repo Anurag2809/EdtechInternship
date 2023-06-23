@@ -76,6 +76,6 @@ app.post('/instructorlogin', async (req, res) => {
     res.status(200).json({ message: 'Login successful' });
   } catch (err) {
     console.error(err);
-    res.status(500).json({ message: 'Failed to login' });
+    res.status(500).json({ message: 'Failed to login'});
   }
 });
